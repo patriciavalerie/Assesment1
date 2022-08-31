@@ -2,156 +2,7 @@
 <html>
 <head>
 <title>My Comfort Zone</title>
-<style>
-h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 36px;
-    font-style: bold;
-    color: black;
-}
-
-h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    color: black;
-}
-
-p {
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 16px;
-font-style: normal;
-color: black;
-}
-    .container {
-      position: relative;
-      text-align: center;
-      color: white;
-    }
-    
-    .center {
-        position: absolute;
-        top: 30px;
-        left: 16px;
-        color: white;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 30px;
-        font-style: bold;
-    }
-
-    .bottom-right {
-      position: absolute;
-      bottom: 40px;
-      right: 50px;
-      color: white;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-size: 16px;
-      font-style: italic;
-    }
-
-    * {
-  box-sizing: border-box;
-    }
-
-    .column1 {
-        float: left;
-        width: 50%;
-        padding: 5px;
-        vertical-align: middle;
-    }
-
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    * {box-sizing: border-box;}
-
-.column2 {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/*Our Member New Profile Section*/
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.column3 {
-  float: left;
-  width: 50%;
-  margin-bottom: 16px;
-  padding: 5px;
-}
-
-.column4 {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 5px;
-}
-
-@media screen and (max-width: 650px) {
-  .column3 {
-    width: 100%;
-    display: block;
-  }
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-.custom {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -159,7 +10,7 @@ html {
 <div class=”container”>
     <img src="img/IMG_3129.JPG" alt="Cover" width="100%">
     <div class="bottom-right">You don't choose your family. They are God's gift to you, as you are to them.</div>
-    <div class="center">MY COMFORT ZONE</div>
+    <div class="top-left">MY COMFORT ZONE</div>
 </div>
 
 <div class="row">
@@ -181,38 +32,32 @@ html {
         <img src="img/Dad.JPG" alt="Dad" style="width:100%">
         <div class="container">
           <h2>JACOBUS DJUANG</h2>
-          <p class="title">Father</p>
+          <p class="title">FATHER</p>
           <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>example@example.com</p>
-          <p><button class="button">Contact</button></p>
         </div>
       </div>
     </div>
-  </div>
   
     <div class="column3">
       <div class="card">
         <img src="img/Mom.JPG" alt="Mom" style="width:100%">
         <div class="container">
-          <h2>Ninik Liudianto</h2>
-          <p class="title">Mom</p>
+          <h2>NINIK LIUDIANTO</h2>
+          <p class="title">MOM</p>
           <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-          <p>example@example.com</p>
-          <p><button class="button">Contact</button></p>
         </div>
       </div>
     </div>
+    </div>
 
-    <div class="row">
+    <div class="row custom">
       <div class="column4">
         <div class="card">
           <img src="img/Sister1.JPG" alt="Sister1" style="width:100%">
           <div class="container">
-            <h2>JACOBUS DJUANG</h2>
-            <p class="title">Father</p>
+            <h2>PATRICIA VALEROE</h2>
+            <p class="title">First Born</p>
             <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>example@example.com</p>
-            <p><button class="button">Contact</button></p>
           </div>
         </div>
       </div>
@@ -221,11 +66,9 @@ html {
         <div class="card">
           <img src="img/Sister2.JPG" alt="Sister2" style="width:100%">
           <div class="container">
-            <h2>Ninik Liudianto</h2>
-            <p class="title">Mom</p>
+            <h2>JENNIFER BRITNEY</h2>
+            <p class="title">Second daughter</p>
             <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>example@example.com</p>
-            <p><button class="button">Contact</button></p>
           </div>
         </div>
       </div>
@@ -234,25 +77,22 @@ html {
         <div class="card">
           <img src="img/Sister3.JPG" alt="Sister3" style="width:100%">
           <div class="container">
-            <h2>Ninik Liudianto</h2>
-            <p class="title">Mom</p>
+            <h2>MICHAELLA NICOLE</h2>
+            <p class="title">Third daughter</p>
             <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>example@example.com</p>
-            <p><button class="button">Contact</button></p>
           </div>
         </div>
       </div>
+      </div>
 
-      <div class="row">
+      <div class="row custom">
         <div class="column3">
           <div class="card">
             <img src="img/Sister4.JPG" alt="Sister4" style="width:100%">
             <div class="container">
-              <h2>JACOBUS DJUANG</h2>
-              <p class="title">Father</p>
+              <h2>GABRIELLA NATHANNIA</h2>
+              <p class="title">Fourth daughter</p>
               <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-              <p>example@example.com</p>
-              <p><button class="button">Contact</button></p>
             </div>
           </div>
         </div>
@@ -261,18 +101,17 @@ html {
           <div class="card">
             <img src="img/Brother.JPG" alt="Brother" style="width:100%">
             <div class="container">
-              <h2>Ninik Liudianto</h2>
-              <p class="title">Mom</p>
+              <h2>CLIFFORD NICHOLSON</h2>
+              <p class="title">Long-awaited son</p>
               <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-              <p>example@example.com</p>
-              <p><button class="button">Contact</button></p>
             </div>
           </div>
+        </div>
         </div>
 
     
 <h1 style="text-align: center;">OUR MEMORIES</h1>
-<p>A picture is worth a thousand words, but a memory is priceless</p>
+<p style="text-align: center;">A picture is worth a thousand words, but a memory is priceless</p>
 
 <div class="row">
   <div class="column2">
