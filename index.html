@@ -48,7 +48,7 @@ color: black;
     .column1 {
         float: left;
         width: 50%;
-        padding: 15px;
+        padding: 5px;
         vertical-align: middle;
     }
 
@@ -103,6 +103,63 @@ color: black;
   content: "";
   clear: both;
   display: table;
+}
+
+/*Our Member New Profile Section*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column3 {
+  float: left;
+  width: 50%;
+  margin-bottom: 16px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 650px) {
+  .column3 {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
 }
 
 </style>
@@ -164,7 +221,34 @@ color: black;
     <div class="overlay">CLIFFORD NICHOLSON</div>
   </div>
 
-<h1>OUR MEMORIES</h1>
+  <div class="row">
+    <div class="column3">
+      <div class="card">
+        <img src="img/Dad.JPG" alt="Jane" style="width:100%">
+        <div class="container">
+          <h2>JACOBUS DJUANG</h2>
+          <p class="title">Father</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column3">
+      <div class="card">
+        <img src="img/Mom.JPG" alt="Mike" style="width:100%">
+        <div class="container">
+          <h2>Mike Ross</h2>
+          <p class="title">Art Director</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p>example@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+
+  <h1>OUR MEMORIES</h1>
 <p>A picture is worth a thousand words, but a memory is priceless</p>
 
 <div class="row">
